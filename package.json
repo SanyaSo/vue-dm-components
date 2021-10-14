@@ -3,7 +3,6 @@
   "version": "0.1.0",
   "homepage": "https://SanyaSo.github.io/vue-dm-components/",
   "main": "./lib/vue-dm-components.common.js",
-  "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
     "predeploy": "vue-cli-service build --mode demo",
