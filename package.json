@@ -1,11 +1,14 @@
 {
   "name": "vue-dm-components",
   "version": "0.1.0",
-  "homepage": "https://SanyaSo.github.io/vue-dm-components/", 
+  "homepage": "https://SanyaSo.github.io/vue-dm-components/",
+  "main": "./lib/vue-dm-components.common.js",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
+    "predeploy": "vue-cli-service build --mode demo",
+    "deploy": "gh-pages -d demo",
+    "build": "vue-cli-service build --target lib --name vue-dm-components src/lib.js",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
