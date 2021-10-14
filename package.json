@@ -1,6 +1,7 @@
 {
   "name": "vue-dm-components",
   "version": "0.1.0",
+  "homepage": "https://SanyaSo.github.io/vue-dm-components/", 
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
@@ -9,6 +10,8 @@
   },
   "dependencies": {
     "core-js": "^3.6.5",
+    "gem": "^2.4.3",
+    "travis": "^0.1.1",
     "vue": "^3.0.0"
   },
   "devDependencies": {
